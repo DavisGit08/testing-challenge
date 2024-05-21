@@ -1,0 +1,117 @@
+{
+    "book1":
+        {
+            "title":"book 1",
+            "author":"David the writter",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0",
+            "price":7
+        },
+    "bookModif":
+        {
+            "title":"book 1 modified",
+            "author":"David the writter modified",
+            "published_date":"2021/05/25",
+            "isbn":"4-12-105111-0",
+            "price":1450
+        },
+    "boundary1":
+        {
+            "title":"boundary1 with a very long title in order to test if it can support it, you know what I mean? and some weird chars like %&*^¨:_¨%&/)(<>",
+            "author":"David the writter",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0",
+            "price":8
+        },
+    "boundary1.1":
+        {
+            "title":"",
+            "author":"David the writter",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0",
+            "price":8
+        },
+    "boundary2":
+        {
+            "title":"boundary2",
+            "author":"David is writting the author field with a very long description, so we can figure out if it's supported and some weird chars like %&*^¨:_¨%&/)(<>",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0",
+            "price":14
+        },
+    "boundary2.2":
+        {
+            "title":"boundary2",
+            "author":"",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0",
+            "price":14
+        },
+    "boundary3":
+        {
+            "title":"boundary3",
+            "author":"Davod",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0-445-54-322223443430909434343",
+            "price":1
+        },
+    "boundary3.3":
+        {
+            "title":"boundary3",
+            "author":"Davod",
+            "published_date":"2024/05/25",
+            "isbn":"",
+            "price":1
+        },
+    "boundary4":
+        {
+            "title":"this$ title! has-_<>; mány *^ werid Çhars :)",
+            "author":"Davod",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0",
+            "price":784959583811
+        },
+    "boundary4.4":
+        {
+            "title":"this$ title! has-_<>; mány *^ werid Çhars :)",
+            "author":"Davod",
+            "published_date":"2024/05/25",
+            "isbn":"4-12-105554-0",
+            "price":0
+        },
+    "missingTitle":
+        {
+            "author":"1David the writter",
+            "published_date":"2024/05/25",
+            "isbn":"14-12-105554-0",
+            "price":8
+        },
+    "missingAuthor":
+        {
+            "title":"1book 1",
+            "published_date":"2024/05/25",
+            "isbn":"14-12-105554-0",
+            "price":8
+        },
+    "missingPublishDate":
+        {
+            "title":"1book 1",
+            "author":"1David the writter",
+            "isbn":"14-12-105554-0",
+            "price":8
+        },
+    "missingIsbn":
+        {
+            "title":"1book 1",
+            "author":"1David the writter",
+            "published_date":"2024/05/25",
+            "price":8
+        },
+    "missingPrice":
+        {
+            "title":"1book 1",
+            "author":"1David the writter",
+            "published_date":"2024/05/25",
+            "isbn":"14-12-105554-0"
+        }
+}

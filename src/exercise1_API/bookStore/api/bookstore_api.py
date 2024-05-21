@@ -67,6 +67,14 @@ def delete_book(book_id):
     return make_response(
         jsonify({'message': 'Book deleted successfully'}), 204)
 
+# Created by David Pérez as TestSupport endpoint
+@app.route('/books', methods=['DELETE'])
+def delete_all_books():
+    books.clear()
+    return make_response(
+        jsonify({'message': 'All books deleted successfully'}), 204)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
