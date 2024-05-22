@@ -5,19 +5,20 @@ description = "Book Store API"
 authors = ["Idoven"]
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "3.10.6"
 
+[tool.poetry.dependencies]
+python = "^3.12"
 gunicorn = "20.1.0"
 uvicorn = "0.21.0"
 python-multipart = "0.0.6"
 python-i18n = {extras = ["yaml"], version = "0.3.9"}
 toml = "0.10.2"
 flask = "^2.3.3"
+selenium = "^4.21.0"
 
 
 [tool.poetry.group.dev.dependencies]
-pytest = "7.2.2"
+pytest = "7.1.3"
 httpx = "0.23.3"
 requests-toolbelt = "0.10.1"
 toml = "0.10.2"

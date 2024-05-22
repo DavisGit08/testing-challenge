@@ -25,4 +25,4 @@ jobs:
       run: poetry install
 
     - name: Run tests
-      run: poetry run pytest -vv test/apitest_api.py
+      run: poetry run pytest -vv tests/api/test_api.py
