@@ -1,14 +1,5 @@
-from src.exercise1_API.bookStore.api.bookstore_api import app
 from tests.api.utils.utils import new_book_json, resp_headers_validation
-import pytest
-
-
-# Client to be started.
-@pytest.fixture
-def client():
-    with app.test_client() as client:
-        with app.app_context():
-            yield client
+from tests.api.utils.utils import client
 
 
 #·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·# RAINY PATHS #·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#·#
